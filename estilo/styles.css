@@ -50,7 +50,7 @@ header{
 header > h1{
     font-family: var(--fonteheader);
     text-decoration: underline;
-    font-size: 6em;
+    font-size: 5em;
     color: black;
     text-align: center;
 }
