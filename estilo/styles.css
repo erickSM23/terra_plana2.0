@@ -71,14 +71,44 @@ main{
 
 main h1,h2,h3,h4,h5{
     font-family: var(--fonttitulos);
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+main h1{
+    font-size: 3em;
+}
+
+main h2{
+    font-size: 2em;
+}
+
+main h3{
+    font-size: 1.4em;
 }
 
 main p{
     font-family: var(--fonttexto);
+    padding-bottom: 70px;
+    line-height: 2em;
+    text-align: center;
+    font-size: 27px;
+}
+
+div{
+    background-color: black;
+    margin: 50px -30px 50px -30px;
+    
 }
 
 main img{
-    width: 100%;
+    padding: 200px;
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 200px;
+    margin-top: 200px;
+
 }
 
 footer{
