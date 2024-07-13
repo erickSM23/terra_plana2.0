@@ -139,7 +139,7 @@ footer{
 }
 
 footer > p{
-    font-family: var(--fonteheader);
+    font-family: var(--fonttexto);
     text-align: center;
     font-size: 2em;
     padding: 40px;
