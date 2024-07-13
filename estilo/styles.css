@@ -113,14 +113,27 @@ main img{
 
 main a{
     color: var(--color3);
+    padding: 5px;
 }
 
 main a:hover{
-    transition-duration: 1s;
+    text-decoration: none;
+    transition-duration: 2s;
     background-color: var(--color1);
     color: var(--color5);
-    border-radius: 100px;
+    border-radius: 25px;
+}
+
+a#site1{ 
+    color:#040FD9 ;
     padding: 5px;
+}
+
+a#site1:hover{
+    background-color: black;
+    transition-duration: 2s;
+    text-decoration: none;
+    border-radius: 25px;
 }
 
 footer{
