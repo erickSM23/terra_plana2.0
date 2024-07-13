@@ -1,9 +1,81 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'pri';
+    src: url('../fontes/GODOFWAR.TTF') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'titulos';
+    src: url("../fontes/Moderniz.otf");
+}
+
+@font-face {
+    font-family: 'texto';
+    src: url("../fontes/big_noodle_titling.ttf");
+}
+
+*{
+    padding: 0px; 
+    margin: 0px;
+}
+
 :root{
-    --cor0: #040FD9; 
-    --cor1: #040DBF; 
-    --cor2: #030A8C; 
-    --cor3: #020659; 
-    --cor4: #010440; 
+    /* Cores*/
+    --color1: #0D1F26; 
+    --color2: #294018; 
+    --color3: #50731D;
+    --color4: #8AA624; 
+    --color5: #EAF205; 
+
+    /* fontes */
+
+    --fontepadrao: Arial, Helvetica, sans-serif;
+    --fonteheader:'pri',Arial, Helvetica, sans-serif;
+    --fonttitulos: 'titulos',Arial, Helvetica, sans-serif;
+    --fonttexto:'texto',Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    background-image: linear-gradient( to bottom, #294018,#50731D);
+    padding: 30px;
+    margin: auto;
+}
+
+header > h1{
+    font-family: var(--fonteheader);
+    text-decoration: underline;
+    font-size: 6vw;
+    color: black;
+    text-align: center;
+}
+
+header > p{
+    font-family: var(--fontepadrao);
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+main{
+   background-color: white; 
+   padding: 30px;
+   margin: auto;
+   max-width: 1000px;
+   min-width: 320px;
+}
+
+footer{
+    background-color: var(--color3);
+}
+
+footer > p{
+    font-family: var(--fonteheader);
+    text-align: center;
+    font-size: 2em;
+    padding: 40px;
 }
